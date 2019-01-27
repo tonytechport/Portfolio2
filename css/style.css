@@ -238,9 +238,9 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-    background: #F9F9F9;
+    background: #2d2d2d;
     padding: 15px 0px;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid #2d2d2d;
 }
 
 .header_box {
@@ -278,7 +278,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #777777;
+    color: #fff;
 }
 
 .navStyle {
@@ -376,8 +376,8 @@ p {
 
 .top_cont_outer {
     position: relative;
-    height: 750px;
-    background: url('../img/home2.jpg') no-repeat;
+    height: 900px;
+    background: url('../img/topImage.jpg') no-repeat;
     background-size: cover;
 }
 .top_cont_outer:before{content:'';position:absolute;top:0;width:100%;z-index:5;background: rgba(23, 26, 29, 0.85);height:100%;bottom:0;}
@@ -989,21 +989,19 @@ margin-bottom: 5px;
     text-decoration: none;
 }
 
-.team_box ul li a.fa-twitter:hover {
-    color: #55acee;
-}
-
 .team_box ul li a.fa-facebook:hover {
     color: #3b5998;
 }
 
-.team_box ul li a.fa-pinterest:hover {
-    color: #cb2026;
+.team_box ul li a.fa-linkedin:hover {
+    color: #FEB11E;
 }
 
-.team_box ul li a.fa-google-plus:hover {
-    color: #dd4b39;
+.team_box ul li a.fa-file:hover {
+    color: #FEB11E;
 }
+
+
  .img-circle {
 border-radius: 50%;
 }
@@ -1164,22 +1162,20 @@ border: 1px solid #CE1139;
     border-radius: 80px;
 }
 
-.twitter a:hover {
-    color: #55acee;
-}
+
 
 .facebook a:hover {
     color: #3b5998;
 }
 
-.pinterest a:hover {
-    color: #cb2026;
+.linkedin a:hover {
+    color:  #FEB11E;
 }
 
-.gplus a:hover {
-    color: #dd4b39;
+.file a:hover{
+    color:  #FEB11E;
 }
- 
+
 
 .form {
     margin: 0 66px 0 30px;
