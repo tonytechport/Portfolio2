@@ -376,7 +376,7 @@ p {
 
 .top_cont_outer {
     position: relative;
-    height: 900px;
+    height: 700px;
     background: url('../img/topImage.jpg') no-repeat;
     background-size: cover;
 }
