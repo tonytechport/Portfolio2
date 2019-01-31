@@ -994,7 +994,7 @@ margin-bottom: 5px;
 }
 
 .team_box ul li a.fa-linkedin:hover {
-    color: #FEB11E;
+    color: rgb(64, 90, 138);
 }
 
 .team_box ul li a.fa-file:hover {
@@ -1169,7 +1169,7 @@ border: 1px solid #CE1139;
 }
 
 .linkedin a:hover {
-    color:  #FEB11E;
+    color: rgb(64, 90, 138);
 }
 
 .file a:hover{
