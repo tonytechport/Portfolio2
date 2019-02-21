@@ -45,7 +45,7 @@ $(function() {
  		 $('#success').html("<div class='alert alert-danger'>");
             	$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             	 .append( "</button>");
-            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" github services only allows for static websites :( please email me directly! <a href='mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com'>me@example.com</a> ? Sorry for the inconvenience!");
+            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" github pages only serves static content :( please email me directly! <a href='mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com'>me@example.com</a> ? Sorry for the inconvenience!");
  	        $('#success > .alert-danger').append('</div>');
  		//clear all fields
  		$('#contactForm').trigger("reset");
